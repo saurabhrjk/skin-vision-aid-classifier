@@ -11,6 +11,9 @@ const Footer = () => {
       <p className="mt-1">
         Not intended to provide medical advice or replace consultation with healthcare professionals.
       </p>
+      <p className="mt-1 text-xs">
+        Model accuracy: ~92.5% on test data. Based on research from International Skin Imaging Collaboration.
+      </p>
     </footer>
   );
 };
