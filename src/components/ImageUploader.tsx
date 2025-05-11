@@ -106,7 +106,7 @@ const ImageUploader = ({ onImageSelected }: ImageUploaderProps) => {
           onDragLeave={handleDrag}
           onDrop={handleDrop}
         >
-          <div className="flex flex-col items-center justify-center gap-4">
+          <div className="flex flex-col items-center justify-center gap-4" id= "imageuploader">
             <div className="rounded-full bg-primary/10 p-4">
               <ImagePlus size={36} className="text-primary" />
             </div>
@@ -149,5 +149,6 @@ const ImageUploader = ({ onImageSelected }: ImageUploaderProps) => {
     </div>
   );
 };
+
 
 export default ImageUploader;

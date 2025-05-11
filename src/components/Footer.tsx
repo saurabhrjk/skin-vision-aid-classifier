@@ -14,6 +14,8 @@ const Footer = () => {
       <p className="mt-1 text-xs">
         Model accuracy: ~92.5% on test data. Based on research from International Skin Imaging Collaboration.
       </p>
+      <br/>
+      <p>Generate by : Saurabh khandelwal and Prashant kumar sah</p>
     </footer>
   );
 };

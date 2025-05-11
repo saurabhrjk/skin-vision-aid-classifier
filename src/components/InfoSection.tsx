@@ -32,6 +32,9 @@ const InfoSection = () => {
               and provide information about possible conditions, but should not replace 
               professional medical advice.
             </p>
+            <p>To contact : <br/>
+            Email : khandelwalsaurabh138@gamil.com and prashanttkumarsah@gmail.com <br/>
+            Phone : 7877026395 and 9311770788</p>
           </TabsContent>
           
           <TabsContent value="guidance" className="space-y-4">
